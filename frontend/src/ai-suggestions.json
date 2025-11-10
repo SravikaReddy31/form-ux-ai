@@ -1,0 +1,25 @@
+{
+  "name": {
+    "label": "Full name",
+    "hint": "Enter your first and last name as on official documents.",
+    "aria": { "describedby": "nameHelp nameError" },
+    "validation": { "minLength": 2 }
+  },
+  "email": {
+    "label": "Email address",
+    "hint": "We'll use this to contact you. Example: name@example.com",
+    "aria": { "describedby": "emailHelp emailError" },
+    "validation": { "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$" }
+  },
+  "password": {
+    "label": "Create a password",
+    "hint": "At least 8 characters, include a number and a special character.",
+    "aria": { "describedby": "pwdHelp pwdError" },
+    "validation": { "minLength": 8 }
+  },
+  "terms": {
+    "label": "Agree to Terms of Service",
+    "hint": "You must agree before submitting.",
+    "aria": { "describedby": "termsError" }
+  }
+}
