@@ -16,7 +16,7 @@
 # Tech Stack
 - HTML5 and CSS3 for structure and basic styling.​
 - JavaScript for client-side validation and dynamic error messages.​
-- Any backend (e.g., Node/Express, Flask, or similar) for server-side validation demo.​
+- Backend Node for server-side validation demo.​
 
 ---
 
